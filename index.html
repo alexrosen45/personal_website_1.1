@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>AR home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/layout.css" />
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>AR</b>  personal website</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About Me</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Information</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<img src="skyline.png" alt="Skyline" width="500" height="333">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="images/skyline.png" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AR</b></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- About Me Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h1>
+    <p>I am currently a grade 11 student living in Toronto, Canada. I built this website to display my current projects and contact information. I am not currently seeking work but I have experience developing several full-stack applications and I would be open to contributing to any private or open-source projects if it interests me.
+    </p>
+  </div>
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h1>
+  </div>
+  <div class="center">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-center">
+        <h2>My First Game!</h2>
+      </div>
+      <img src="images/cargo_run_logo.png" alt="cargo_run_logo" style="width: 100%;">
+      <p>I called the first game I created "Cargo Run" because the objective of the game is to see how long you, the player, can last protecting a cargo ship in space. It does not use a game engine and was built using the pygame library. When making the game I took inspiration from space invaders and tried to modernize the classic game by creating a version that has updated graphics, better runtime, and powerups.</p>
+      <img src="images/space_invaders.png" alt="space_invaders" style="width:100%; margin-top: 15px;">
+      <p>The code for this particular project was very inefficient and clunky. Looking back there are several things I would have done differently, but this project helped my grasp the full concept of object-oriented programming with classes which I now apply to all my programs. This game also made me realize the significance of the foundation of games provided by game engines. If I am going to build a game again I am interested in learning C# paired with the Unity Game Engine to create an RPG style experience.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-center">
+        <img src="images/covid-19_app_graphic.png" alt="covid-19_app_graphic" style="width: 100%;">
+      </div>
+      <div class="w3-center">
+        <img src="images/covid-19_app_logo.png" alt="covid-19_app_logo" style="width:100%; margin-top: 15px;">
+        <h3>COVID-19 Information App</h3>
+        <p class="w3-opacity">All your COVID-19 data and news in one place</p>
+      </div>
+      <div class="w3-center">
+        <p>
+          <a href=''>
+            <img src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' alt='Get it on Google Play' width="240" height="95"/>
+          </a>
+        </p>
+      </div>
+      <p>This app is available on android and was built as a school project. My goal when creating the app was to develop a platform to educated the public on COVID-19 facts utilizing easy to interperet information paired with an intuitive navigation layout. It provides data and news that can be toggled or customized between a local and global scale along with simplified explanations about testing and vaccine terminology.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-center">
+        <h2>Neural Network from Scratch</h2>
+      </div>
+      <img src="images/neural_network.png" alt="neural_network" style="width: 100%;">
+      <p>In the summer of 2020 I built my first neural network from scratch. It didn't accomplish any practical tasks, but my goal was to train the network to sort prime numbers without telling it explicitly how to. I have now learned that inorder to build networks to a modern standard, for example convolutional neural networks, it is much easier to re-train already existing models because it is to complex to solve practical problems from scratch. However, when making the structure of the network I gained in-depth knowledge about how weights and biases operate opposed to just inputs and outputs.</p>
+      <img src="images/trading_bot.png" alt="trading_bot" style="width:100%; margin-top: 15px;">
+      <p>As I move forward, I want to begin learning about how AI can transform trading and asset transactions. My goal is to hopefully build a website that can provide analysis on ventures and risk assesment.</p>
+    </div>
+  </div>
+
+  <!-- Contact Information Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Information</h1>
+    <div class="center">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-center">
+          <p>
+            <a href='https://www.linkedin.com/in/alex-rosen-7152281b7/'>
+              <img src='images/linkedin_button.png' alt='linkedin_button' style="width: 320px; height: 75px;"/>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-center">
+          <p>
+            <img src='images/email_me.png' alt='email_me' style="width: 430px; height: 75px;"/>
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-center">
+          <p>
+            <a href='https://github.com/alexrosen45'>
+              <img src='images/github_profile.png' alt='github_profile' style="width: 320px; height: 75px;"/>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Lets get in touch and talk about your next project.</p>
+</footer>
+</body>
+</html>
